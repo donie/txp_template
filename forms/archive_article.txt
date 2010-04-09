@@ -1,0 +1,5 @@
+<txp:if_different>
+	<dt><strong><txp:posted format="%Y" /></strong></dt>
+</txp:if_different>
+
+<dd><txp:posted format="%B %d" /> &mdash; <txp:permlink><txp:title /></txp:permlink></dd>

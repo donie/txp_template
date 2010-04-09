@@ -1,0 +1,22 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+an7_comments3.txt	../plugins/an7_comments3.txt	1
+archive.txt	../pages/archive.txt	1
+archive_article.txt	../forms/archive_article.txt	1
+article_heading.txt	../forms/article_heading.txt	1
+cbs_navigation_menu.txt	../plugins/cbs_navigation_menu.txt	1
+comment_form.txt	../forms/comment_form.txt	1
+comments.txt	../forms/comments.txt	1
+comments_display.txt	../forms/comments_display.txt	1
+default.txt	../forms/default.txt	1
+default.txt	../pages/default.txt	1
+error_default.txt	../pages/error_default.txt	1
+footer.txt	../forms/footer.txt	1
+full_article.txt	../forms/full_article.txt	1
+header.txt	../forms/header.txt	1
+jnm_categories_0_1.txt	../plugins/jnm_categories_0_1.txt	1
+quick_gen_project_gaia_autogen.bat	../quick_gen_project_gaia_autogen.bat	1
+quick_gen_project_post_custom.bat	../_vimfiles_gaia/quick_gen_project_post_custom.bat	1
+quick_gen_project_pre_custom.bat	../_vimfiles_gaia/quick_gen_project_pre_custom.bat	1
+search_results.txt	../forms/search_results.txt	1
+static_article.txt	../forms/static_article.txt	1
+static_page.txt	../pages/static_page.txt	1

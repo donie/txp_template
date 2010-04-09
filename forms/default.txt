@@ -1,0 +1,15 @@
+<!-- article -->
+<div class='hentry'>
+	<txp:output_form form='article_heading' />
+
+	<txp:if_excerpt>
+		<div class="entry-summary"><txp:excerpt /></div>
+		<p><txp:permlink>Continue reading &raquo;</txp:permlink></p>
+	<txp:else />
+		<div class="entry-content"><txp:body /></div>
+		<txp:if_comments_allowed>
+			<txp:comments_invite wraptag="p" showcount="0" />
+		</txp:if_comments_allowed>
+	</txp:if_excerpt>
+</div>
+<!-- /article -->

@@ -1,0 +1,45 @@
+-- auto-gen settings (DO NOT MODIFY) --
+
+CWD=C:/Users/lsun3/Desktop/txp/gaia
+Version=23
+VimEntryName=gaia
+VimfilesDirName=_vimfiles_gaia
+
+-- ex-plugins File Settings --
+
+LangType=auto
+Project=./_vimfiles_gaia/project_tree.exproject
+FilenameList=./_vimfiles_gaia/filenamelist
+Tag=./_vimfiles_gaia/tags
+ID=./_vimfiles_gaia/ID
+Symbol=./_vimfiles_gaia/symbol
+Macro=./_vimfiles_gaia/macro
+Cscope=./_vimfiles_gaia/cscope.out
+Inherits=./_vimfiles_gaia/inherits
+Bookmarks=./_vimfiles_gaia/bookmarks
+
+vimentryRefs+=
+
+-- ex-plugins Behavior Settings --
+
+RestoreBuffers=false
+AskForRestoration=true
+RestoreInfo=./_vimfiles_gaia/restore_info
+
+-- LookupFile Settings --
+
+LookupFileTag=./_vimfiles_gaia/filenametags
+
+-- Visual Studio Settings --
+
+vsTaskList=./_vimfiles_gaia/vs_task_list
+vsOutput=./_vimfiles_gaia/vs_output
+vsFindResult1=./_vimfiles_gaia/vs_find_results_1
+vsFindResult2=./_vimfiles_gaia/vs_find_results_2
+
+-- vimwiki Settings --
+
+wikiHome=./_doc
+wikiHomeHtml=./wiki_html
+wikiHtmlHeader=./_doc/template/header.tpl
+

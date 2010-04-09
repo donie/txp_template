@@ -1,0 +1,13 @@
+<txp:output_form form='header' />
+
+<txp:if_article_list>
+	<txp:if_search>
+		<h2>Search results</h2>
+	</txp:if_search>
+	<txp:article />
+</txp:if_article_list>
+
+<txp:if_individual_article>
+	<txp:article form='full_article' />
+</txp:if_individual_article>
+<txp:output_form form='footer' />

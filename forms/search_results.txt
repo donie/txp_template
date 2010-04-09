@@ -1,0 +1,4 @@
+<!-- search results -->
+<h3><txp:permlink><txp:title /></txp:permlink></h3>
+<p><em><txp:posted /></em> <txp:search_result_excerpt /></p>
+<!-- /search results -->

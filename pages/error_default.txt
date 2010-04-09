@@ -1,0 +1,6 @@
+<txp:output_form form='header' />
+
+<h2><txp:error_status /></h2>
+<p><txp:error_message /></p>
+
+<txp:output_form form='footer' />

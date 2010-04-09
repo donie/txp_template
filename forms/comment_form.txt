@@ -1,0 +1,28 @@
+<h2 id="<txp:text item="comment" />"><txp:comments_invite textonly="1" showalways="1" showcount="0" /></h2>
+
+<txp:comments_error wraptag="ul" break="li" />
+
+<fieldset>
+	<legend>Comment form</legend>
+	
+	<div class="left-col">
+		<p><label for="name"><txp:text item="comment_name" /></label><br />
+		<txp:comment_name_input /></p>
+		
+		<p><label for="email"><txp:text item="comment_email" /></label><br />
+		<txp:comment_email_input /></p>
+		
+		<p><label for="web"><txp:text item="comment_web" /> (optional)</label><br />
+		<txp:comment_web_input /></p>
+		
+		<p id="remember-block"><txp:comment_remember /></p>
+	</div>
+	
+	<p id="message-block">
+		<label for="message"><txp:text item="comment_message" /></label> 
+		(<txp:comments_help />)<br />
+		<txp:comment_message_input />
+	</p>
+
+	<p id="buttons-block"><txp:comment_preview /><txp:comment_submit /></p>
+</fieldset>

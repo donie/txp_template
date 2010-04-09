@@ -1,0 +1,40 @@
+# jnm_categories v0.1
+# Display article's categories, separated by 'separator'
+# Juanjo Navarro
+# http://www.juanjonavarro.com/
+
+# ......................................................................
+# This is a plugin for Textpattern - http://textpattern.com/
+# To install: textpattern > admin > plugins
+# Paste the following text into the 'Install plugin' box:
+# ......................................................................
+
+YTo5OntzOjQ6Im5hbWUiO3M6MTQ6ImpubV9jYXRlZ29yaWVzIjtzOjc6InZlcnNpb24iO3M6
+MzoiMC4xIjtzOjY6ImF1dGhvciI7czoxNDoiSnVhbmpvIE5hdmFycm8iO3M6MTA6ImF1dGhv
+cl91cmkiO3M6Mjk6Imh0dHA6Ly93d3cuanVhbmpvbmF2YXJyby5jb20vIjtzOjExOiJkZXNj
+cmlwdGlvbiI7czo1NDoiRGlzcGxheSBhcnRpY2xlJ3MgY2F0ZWdvcmllcywgc2VwYXJhdGVk
+IGJ5ICdzZXBhcmF0b3InIjtzOjQ6InR5cGUiO2k6MDtzOjQ6ImhlbHAiO3M6Mjg1OiIJPHA+
+ClNpbXBsZSBwbHVnaW4gdG8gZGlzcGxheSBhcnRpY2xlJiM4MjE3O3MgY2F0ZWdvcmllcywg
+c2VwYXJhdGVkIGJ5ICYjODIxNjtzZXBhcmF0b3ImIzgyMTc7LjwvcD4KCgk8cD5BdHRyaWJ1
+dGVzOjwvcD4KCgk8cD5Zb3UgY2FuIHVzZSB0aGUgc2FtZSBhdHRyaWJ1dGVzIGFzIHR4cDpj
+YXRlZ29yeTEgYW5kIHR4cDpjYXRlZ29yeTIuIFlvdSBjYW4gYWxzbzxiciAvPgpzZXQgdGhl
+ICYjODIxNjtzZXBhcmF0b3ImIzgyMTc7IGF0dHJpYnV0ZSAoZGVmYXVsdCAmIzgyMTY7LCAm
+IzgyMTY7KTwvcD4iO3M6NDoiY29kZSI7czo5Mzc6IgpmdW5jdGlvbiBqbm1fY2F0ZWdvcmll
+cygkYXR0cnMpIHsKICAgZXh0cmFjdChsQXR0cyhhcnJheSgKICAgICd0aXRsZScgICAgICAg
+ID0+IDAsCiAgICAnbGluaycgICAgICAgICA9PiAwLAogICAgJ3NlY3Rpb24nICAgICAgPT4g
+JycsCiAgICAndGhpc19zZWN0aW9uJyA9PiAwLAogICAgJ2NsYXNzJyAgICAgICAgPT4gJycs
+CiAgICAnd3JhcHRhZycgICAgICA9PiAnJywKICAgICdzZXBhcmF0b3InICAgID0+ICcsICcK
+ICApLCRhdHRycykpOwoKICAkY2F0MT1jYXRlZ29yeTEoYXJyYXkoJ3RpdGxlJyAgICAgICAg
+PT4gJHRpdGxlLAogICAgICAgICAgICAgICAgICAgICAgICAnbGluaycgICAgICAgICA9PiAk
+bGluaywKICAgICAgICAgICAgICAgICAgICAgICAgJ3NlY3Rpb24nICAgICAgPT4gJHNlY3Rp
+b24sCiAgICAgICAgICAgICAgICAgICAgICAgICd0aGlzX3NlY3Rpb24nID0+ICR0aGlzX3Nl
+Y3Rpb24sCiAgICAgICAgICAgICAgICAgICAgICAgICdjbGFzcycgICAgICAgID0+ICRjbGFz
+cywKICAgICAgICAgICAgICAgICAgICAgICAgJ3dyYXB0YWcnICAgICAgPT4gJHdyYXB0YWcp
+KTsKCiAgJGNhdDI9Y2F0ZWdvcnkyKGFycmF5KCd0aXRsZScgICAgICAgID0+ICR0aXRsZSwK
+ICAgICAgICAgICAgICAgICAgICAgICAgJ2xpbmsnICAgICAgICAgPT4gJGxpbmssCiAgICAg
+ICAgICAgICAgICAgICAgICAgICdzZWN0aW9uJyAgICAgID0+ICRzZWN0aW9uLAogICAgICAg
+ICAgICAgICAgICAgICAgICAndGhpc19zZWN0aW9uJyA9PiAkdGhpc19zZWN0aW9uLAogICAg
+ICAgICAgICAgICAgICAgICAgICAnY2xhc3MnICAgICAgICA9PiAkY2xhc3MsCiAgICAgICAg
+ICAgICAgICAgICAgICAgICd3cmFwdGFnJyAgICAgID0+ICR3cmFwdGFnKSk7CgogIHJldHVy
+biAoJGNhdDI9PScnKSA/ICRjYXQxIDogJGNhdDEuJHNlcGFyYXRvci4kY2F0MjsKfQoiO3M6
+MzoibWQ1IjtzOjMyOiI0MzUzNDE4NTM1ODQyMjc2ZmQzMWY0YmMzZjgyODg1MCI7fQ==

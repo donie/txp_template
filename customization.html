@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="gaia/css/screen.css" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="gaia/css/autumn.css" />
+	
+	<script type="text/javascript" src="gaia/scripts/scripts.js"></script>
+	<!--[if IE 6]><script type='text/javascript'>Gaia.IEDecorator.init('', 'autumn')</script><![endif]-->
+
+	<title>Textpattern Gaia - Customization</title>
+</head>
+
+<body class="right-aligned">
+
+<!-- container -->
+<div id="container"><div id="wrapper">
+
+<h1><a id="website-name" href="http://agafonkin.com/projects/gaia/">Textpattern Gaia</a></h1>
+
+<!-- navigation -->
+<ul class="nav">
+	<li><a href="intro.html">Intro</a></li>
+	<li><a href="installation.html">Installation</a></li>
+	<li><a href="formatting.html">Formatting</a></li>
+	<li><span class="active">Customization</span></li>
+</ul><!-- /navigation -->
+
+<!-- content -->
+<div id="content">
+
+	<h2>Basic customization</h2>
+
+	<h3>Changing the main container position</h3>
+	<p>To move the main container to the left of the browser window, edit the <em>header</em> form and change body class to 'left-aligned'. 'right-aligned' does the opposite. No value centers the container.</p>
+	<pre><code>&lt;body class="left-aligned"&gt;</code></pre>
+
+	<h3>Adding a static page</h3>
+
+	<p>To add a static page, create a new section and choose <em>static_page</em> page for it. Then just write a new post to this section with the needed content.</p>
+
+	<h3>Turning off shadows</h3>
+
+	<p>To turn off semitransparent shadows that are unobtrusively inserted into the page by a script, open <em>scripts.js</em> file in <em>gaia/scripts</em> folder and comment the corresponding line (in the end of the file) like this:</p>
+	<pre><code>//Gaia.Shadows.init();</code></pre>
+
+	<h2>Advanced customization</h2>
+
+	<p>Gaia comes with an warm and elegant autumn-feel theme that is enabled by default, but if you want to customize graphics and colors in the template, do the following:</p>
+
+	<ol>
+		<li>Remove the <em>autumn.css</em> link in the <em>header</em> form to see the undecorated version of Gaia</li>
+		<li>Make a copy of <em>gaia/css/autumn.css</em> with your theme name (i.e. <em>spring.css</em>)</li>
+		<li>Include it in the <em>header</em> form in place of <em>autumn.css</em></li>
+		<li>Create a folder in <em>gaia/image</em> named after your theme (i.e. <em>gaia/image/spring</em>) to put all graphics for it there.</li>
+		<li>
+			<p>Find the following construct in the <em>header</em> form:</p>
+			<pre><code>Gaia.IEDecorator.init('&lt;txp:site_url /&gt;', 'autumn')</code></pre>
+			<p>Replace 'autumn' with your theme name</p>
+		</li>
+		<li>Edit the stylesheet as you like.</li>
+	</ol>
+
+	<p>If you do not use alpha-transparent PNG overlay for you main container, comment the following line in the <em>scripts.js</em> file:</p>
+	<pre><code>//Gaia.Overlay.init();</code></pre>
+
+	<p>Gaia is bundled with the <strong>graphics vector sources</strong> in PSD format (in the <em>psd</em> directory), so feel free to change any colors, do any rearrangements and resizing and additional drawing you like.</p>
+
+	<h2>Final note</h2>
+
+	<p>If you have any feedback or suggestions on improvement of this template, I would very glad to hear them - please visit the <a href="http://forum.textpattern.com/viewtopic.php?id=23172">Gaia TXP forum topic</a>. A lot of work has been put into this template - thank you for trying it out! </p>
+
+	<p>Yours sincerely, <br />Vladimir</p>
+
+</div><!-- /content -->
+
+<!-- footer -->
+<div id='footer'>
+	<!-- please do not remove the template reference -->
+	<p>Designed and developed by <a href="http://agafonkin.com">Vladimir Agafonkin</a>. Background illustration is reproduced from <a href="http://www.sxc.hu/photo/77335">photo</a> by <a href="http://www.resonatedesign.com">Jamie Harris</a>. Created for <a href="http://textpattern.com">Textpattern</a>.</p>
+	<p>If you have any questions, ideas or just thoughts regarding the template, please visit the <a href="http://forum.textpattern.com/viewtopic.php?id=23172">Gaia TXP forum topic</a>.</p>
+</div><!-- /footer -->
+
+</div></div><!-- /container -->
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<!-- comment -->
+<p class="comment-meta">
+	<span class="vcard author"><span class="fn"><txp:comment_name /></span></span><br />
+	<abbr title="<txp:comment_time gmt='1' format="%Y-%m-%dT%H:%M:%SZ" />" class="datetime published"><txp:comment_time /></abbr>
+	<txp:comment_permlink>#</txp:comment_permlink>
+</p>
+
+<div class="comment-body entry-content"><txp:comment_message /></div>
+<!-- /comment -->

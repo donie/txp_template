@@ -1,0 +1,389 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100.01%;
+	}
+
+	
+/* general styles */
+
+body {
+	font: 62.5%/1.4 "Lucida Grande", Verdana, sans-serif;
+	background: white;
+	color: #333;
+	}
+p, ul, ol, dl {
+	font-size: 1.3em;
+	margin: 1.2em 0;
+	}
+h1 {
+	font: normal 3.4em/1 "Century Gothic", sans-serif;
+	margin: 0 25px 0;
+	padding: 1.1em 0;
+	}
+h2 {
+	font: normal 2.4em/1.2 "Century Gothic", sans-serif;
+	background: url(../images/border.gif) left bottom repeat-x;
+	padding-bottom: 0.7em;
+	margin: 1.65em 0 0;
+	height: 1%;
+	}
+h3 {
+	font: bold 1.4em Verdana, sans-serif;
+	margin: 1.2em 0 0;
+	}
+h4 {
+	font: bold 1.3em Verdana, sans-serif;
+	margin: 1.5em 0 0;
+	}
+hr {
+	display: none;
+	}
+a {
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: underline;
+	}
+#container h1 a, #container h2 a {
+	color: black;
+	text-decoration: none;
+	}
+a img, abbr.datetime {
+	border: none;
+	}
+
+
+/* layout */
+
+body {
+	min-width: 67em;
+	text-align: center;
+	}
+#skip-links {
+	position: absolute;
+	top: -100px;
+	}
+#container {
+	width: 63em;
+	margin: 0 auto;
+	text-align: left;
+	}
+.left-aligned, .right-aligned {
+	text-align: left;
+	}
+.left-aligned #container, .right-aligned #container {
+	display: inline;
+	margin: 0 22px;
+	}
+.left-aligned #container {
+	float: left;
+	}
+.right-aligned #container {
+	float: right;
+	}
+#wrapper {
+	position: relative;
+	height: 1%;
+	}
+.grid #wrapper {
+	background: url(../images/grid.gif) 25px 0 repeat-y;
+	}
+
+
+/* shadows */
+	
+.shadow {
+	display: block;
+	width: 22px;
+	height: 449px;
+	position: absolute;
+	}
+#wrapper[id] .shadow {
+	background-image: url(../images/shadow.png);
+	background-repeat: no-repeat;
+	}
+#shadow-tl {
+	top: 0;
+	left: -22px;
+	background-position: 0 0;
+	}
+#shadow-bl {
+	left: -22px;
+	bottom: 0;
+	background-position: 0 -449px;
+	}
+#shadow-tr {
+	top: 0;
+	right: -22px;
+	background-position: -22px 0;
+	}
+#shadow-br {	
+	right: -22px;
+	bottom: 0;
+	background-position: -22px -449px;
+	}
+
+
+/* navigation */
+
+.nav {
+	list-style: none;
+	padding: 0 2.5em;
+	margin: 0;
+	background: #eee;
+	height: 1%;
+	font-size: 1em;
+	}
+#container[id] .nav {
+	overflow: hidden;
+	}
+.nav li {
+	float: left;
+	font: 1.8em 'Century Gothic', sans-serif;
+	}
+#container .nav li a, .nav li span {
+	float: left;
+	padding: 0.5em 0.8em;
+	color: black;
+	}
+.nav li span.active {
+	background: #ccc; 
+	}
+.nav li a:hover {
+	text-decoration: none;
+	background: #ddd; 
+	}
+
+	
+/* content */
+
+#content {
+	width: 58em;
+	overflow-x: hidden;
+	padding: 0 2.5em;
+	}
+#content h2.entry-title {
+	padding-bottom: 0;
+	background: none;
+	}
+#content p {
+	margin-right: 7em;
+	}
+#content p.meta {
+	padding-bottom: 1.5em;
+	font-size: 1.1em;
+	margin: 0.4em 0 1.4em;
+	background: url(../images/border.gif) left bottom repeat-x;
+	}
+#content ul, #content ol {
+	margin-left: 1.9em;
+	margin-right: 7em;
+	}
+#content li ul, #content li ol, #content li dl {
+	margin: 0 0 1em 1.9em;
+	}
+#container #content li * {
+	font-size: 1em;
+	margin-right: 0;
+	}
+#content table {
+	border-collapse: collapse;
+	}
+#content table td, #content table th {
+	padding: 0.2em 1em;
+	border: 1px solid #ccc;
+	}
+#content pre {
+	clear: both;
+	font-size: 1.2em;
+	border: 1px solid #ccc;
+	background: white;
+	overflow-x: auto;
+	width: 100%;
+	margin: 1.3em 0;
+	padding-bottom: 1.2em;
+	}
+#content[id] pre {
+	font-size: 12px !important;
+	}
+
+#content blockquote {
+	margin-left: 8.1%;
+	padding-left: 1em;
+	position: relative;
+	border-left: 5px solid #ccc;
+	}
+#content blockquote.inline {
+	float: right;
+	display: inline;
+	font-style: italic;
+	padding: 0;
+	border: none;
+	margin: 0 0 1em 2em;
+	width: 31.9%;
+	}
+#content blockquote.inline.one-half {
+	width: 50%;
+	}
+#content blockquote.inline.two-thirds {
+	width: 65.9%;
+	}
+#content blockquote.inline.alt {
+	float: left;
+	margin: 0 2em 1em 0;
+	}
+#content blockquote.inline p {
+	font-size: 1.6em;
+	margin: 0;
+	}
+#content blockquote cite {
+	font-size: 0.9em;
+	}
+#content p.img {
+	float: right; 
+	margin: 0 0 1em 1.5em;
+	display: inline;
+	}
+#content p.img.alt {
+	float: left;
+	margin: 0 1.5em 1em 0;
+	}
+#content p.img.full-width {
+	float: none;
+	margin: 1em 0;
+	}
+
+
+/* comments */
+
+#content .comments {
+	list-style: none;
+	margin: 0;
+	}
+.comments li, #cpreview {
+	height: 1%;
+	overflow: hidden;
+	background: url(../images/border.gif) bottom repeat-x;
+	}
+#cpreview #preview-notice {
+	margin: 0;
+	padding: 1em;
+	}
+.comments li li {
+	background: none;
+	}
+.comments abbr.datetime, #cpreview  abbr.datetime {
+	font-size: 0.85em;
+	}
+.comments_error {
+	list-style: none;
+	}
+#content .comment-meta {
+	width: 32%;
+	margin-right: 0;
+	float: left;
+	}
+.comment-body {
+	width: 66%;
+	float: right;
+	}
+#content .comment-body p {
+	margin-right: 0;
+	}
+
+	
+/* comment form */
+
+#content fieldset {
+	border: none;
+	padding-top: 1em;
+	}
+#content fieldset legend {
+	display: none;
+	}
+#content fieldset .left-col {
+	width: 18.5em;
+	float: right;
+	}
+#content fieldset p {
+	margin: 0 0 0.3em 0;
+	}
+#content fieldset p label {
+	width: 7.2em;
+	}
+#content fieldset p input {
+	width: 14em;
+	}
+#content #buttons-block {
+	text-align: right;
+	margin-top: 1.5em;
+	background: url(../images/border.gif) repeat-x;
+	padding-top: 1.5em;
+	}
+#content #buttons-block input {
+	width: 6.9em;
+	height: 2em;
+	margin-left: 0.5em;
+	}
+#content #remember-block input {
+	width: auto;
+	}
+#content #message-block textarea {
+	width: 65.4%;	
+	height: 10.1em;
+	overflow: auto;
+	}
+#content[id] #message-block textarea {
+	font-size: 12px;
+	}
+
+	
+/* footer */
+	
+#footer {
+	padding: 1.5em 2.5em;
+	margin-top: 5em;
+	background: #eee;
+	}
+#footer h2 {
+	margin-top: 0;
+	}
+#footer p {
+	font-size: 1.2em;
+	}
+#search p {
+	padding-top: 2em;
+	background: url(../images/border.gif) repeat-x;
+	text-align: right;
+	font-size: 1em;
+	height: 1%;
+	}
+#search label {
+	font-size: 1.2em;
+	}
+#search-input {
+	font-size: 1.3em;
+	width: 12em;
+	border: 1px solid #aaa;
+	}
+#search-submit {
+	font-size: 1.2em;
+	margin-left: 0.5em;
+	width: 4em;
+	}
+	
+	
+/* archive */
+
+dl#archive dt {
+	font: 2.4em/1 "Century Gothic", sans-serif;
+	width: 3em;
+	float: left;
+	}
+dl#archive dt strong {
+	font-weight: normal;
+	}
+dl#archive dd {
+	margin-left: 7.2em;
+	}

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="gaia/css/screen.css" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="gaia/css/autumn.css" />
+	
+	<script type="text/javascript" src="gaia/scripts/scripts.js"></script>
+	<!--[if IE 6]><script type='text/javascript'>Gaia.IEDecorator.init('', 'autumn')</script><![endif]-->
+
+	<title>Textpattern Gaia - Installation</title>
+</head>
+
+<body class="right-aligned">
+
+<!-- container -->
+<div id="container"><div id="wrapper">
+
+<h1><a id="website-name" href="http://agafonkin.com/projects/gaia/">Textpattern Gaia</a></h1>
+
+<!-- navigation -->
+<ul class="nav">
+	<li><a href="intro.html">Intro</a></li>
+	<li><span class="active">Installation</span></li>
+	<li><a href="formatting.html">Formatting</a></li>
+	<li><a href="customization.html">Customization</a></li>
+</ul><!-- /navigation -->
+
+<!-- content -->
+<div id="content">
+
+	<h2>Installation</h2>
+
+	<p>The installation is pretty straightforward, assuming you already have a working Textpattern installation (<em>4.0.5+ required</em>) and an FTP access to it's directory. Just follow the steps below.</p>
+
+	<ol>
+		<li><h3>Upload static content</h3>
+		<p>Upload &ldquo;gaia&rdquo; directory of the template package with it's contents to the root of your Textpattern installation. It contains all the styles, images and scripts the template needs.</p>
+		</li>
+
+		<li><h3>Set required preferences</h3>
+		<p>Go to <em>admin -> preferences -> basic</em> page in your Textpattern admin interface.</p>
+		<p>Set <em>&ldquo;Automatically append comments to articles?&rdquo;</em> to <em>&ldquo;No&rdquo;</em>. <em>&ldquo;Present comments as a numbered list?&rdquo;</em> should be set to <em>&ldquo;Yes&rdquo;</em>.</p>
+		</li>
+
+		<li><h3>Set up pages</h3>
+		<p>Every text file in the "pages" directory of the package corresponds to a template page with the same name. Go to <em>presentation -> pages</em>, then create (or replace) all appropriate pages using the contents of that directory.</p>
+		</li>
+
+		<li><h3>Set up forms</h3>
+		<p>Every text file in the "form" directory of the package corresponds to a form with the same name. Go to <em>presentation -> forms</em>, then create (or replace) all appropriate forms with the following types:</p>
+		<table>
+			<tr>
+				<th>Form name</th>
+				<th>Form type</th>
+			</tr>
+			<tr>
+				<td>archive_article</td>
+				<td>article</td>
+			</tr>
+			<tr>
+				<td>archive_heading</td>
+				<td>misc</td>
+			</tr>
+			<tr>
+				<td>footer</td>
+				<td>misc</td>
+			</tr>
+			<tr>
+				<td>full_article</td>
+				<td>article</td>
+			</tr>
+			<tr>
+				<td>header</td>
+				<td>misc</td>
+			</tr>
+			<tr>
+				<td>search_results</td>
+				<td>article</td>
+			</tr>
+			<tr>
+				<td>static_article</td>
+				<td>article</td>
+			</tr>
+			<tr>
+				<td>(existant forms)</td>
+				<td>(default)</td>
+			</tr>
+		</table>
+		<p><strong>Important note:</strong> some text editors/viewers don't display <em>header</em> form content properly for some reason. If this happens, try a different editor.</p>
+		</li>
+
+		<li><h3>Set up sections</h3>
+		<p>Go to <em>presentation -> sections</em>, create &ldquo;article&rdquo; section and do the following:</p>
+		<ul>
+			<li>For the <em>about</em> section, set <em>&ldquo;Uses page&rdquo;</em> to <em>&ldquo;static_page&rdquo;</em></li>
+			<li>For the <em>article</em> section, set <em>&ldquo;Uses page&rdquo;</em> to <em>&ldquo;default&rdquo;</em></li>
+			<li>Create a section with name <em>&ldquo;archive&rdquo;</em>. Set <em>&ldquo;Uses page&rdquo;</em> to <em>&ldquo;archive&rdquo;</em>. Set other options for it to <em>&ldquo;No&rdquo;</em>.</li>
+		</ul>
+		<p>Don't forget to save after every action.</p>
+
+		<li><h3>Install plugins</h3>
+		<p>Go to <em>admin -> plugins</em>, then install plugins by copying the content of each file in the &ldquo;plugins&rdquo; directory into an appropriate field, clicking "install", and then activating it by clicking &ldquo;No&ldquo; under the &ldquo;Active&rdquo; column in the plugin list.</p>
+		</li>
+	</ol>
+
+	<p>You're done, hooray! View the website and enjoy.</p>
+
+	<p>If you have encountered any problems with the installation, feel free to ask for help in the <a href="http://forum.textpattern.com/viewtopic.php?id=23172">Gaia TXP forum topic</a>.</p>
+
+	<p><a href="formatting.html">Proceed to the content formatting instructions &raquo;</a></p>
+
+</div><!-- /content -->
+
+<!-- footer -->
+<div id='footer'>
+	<!-- please do not remove the template reference -->
+	<p>Designed and developed by <a href="http://agafonkin.com">Vladimir Agafonkin</a>. Background illustration is reproduced from <a href="http://www.sxc.hu/photo/77335">photo</a> by <a href="http://www.resonatedesign.com">Jamie Harris</a>. Created for <a href="http://textpattern.com">Textpattern</a>.</p>
+	<p>If you have any questions, ideas or just thoughts regarding the template, please visit the <a href="http://forum.textpattern.com/viewtopic.php?id=23172">Gaia TXP forum topic</a>.</p>
+</div><!-- /footer -->
+
+</div></div><!-- /container -->
+
+</body>
+</html>

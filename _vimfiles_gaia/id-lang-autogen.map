@@ -1,0 +1,16 @@
+# autogen id-lang.map
+# NOTE: this file is created automatically after you create/refresh exProject.
+# CAUTION: you may loose your modification in this file, if you want customize your language map,
+#          please create your own language map file under ./_vimfiles*, and change the file name as id-lang.map
+*~                    IGNORE
+*.bak                 IGNORE
+*.bk[0-9]             IGNORE
+[sp].*                IGNORE
+*/.deps/*             IGNORE
+*/.svn/*              IGNORE
+*.svn-base            IGNORE
+_vimfiles*/*          IGNORE
+quick_gen_project_*.* IGNORE
+*.err                 IGNORE
+*.exe                 IGNORE
+*.lnk                 IGNORE

@@ -1,0 +1,20 @@
+</div><!-- /content -->
+
+<!-- footer -->
+<div id='footer'>
+	<h2>About the website</h2>
+	<!-- please do not remove the template reference -->
+	<p>Based on <a href="http://forum.textpattern.com/viewtopic.php?id=23172">Gaia</a> template by <a href="http://agafonkin.com">Vladimir Agafonkin</a>. Background illustration is reproduced from <a href="http://www.sxc.hu/photo/77335">photo</a> by <a href="http://www.resonatedesign.com">Jamie Harris</a>. Powered by <a href="http://textpattern.com">Textpattern</a>.</p>
+	<p>Content is also available through an <a href="#">RSS feed</a>.</p>
+
+	<form id="search" action="<txp:site_url />" method="get">
+		<p><label for="search-input">Search: </label><input type="text" id="search-input" name="q" />
+		<input type="submit" id="search-submit" value="Go" /></p>
+	</form>
+</div><!-- /footer -->
+
+</div></div><!-- /container -->
+
+</body>
+</html>
+<!-- Thank you :) -->

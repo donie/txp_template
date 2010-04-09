@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="gaia/css/screen.css" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="gaia/css/autumn.css" />
+	
+	<script type="text/javascript" src="gaia/scripts/scripts.js"></script>
+	<!--[if IE 6]><script type='text/javascript'>Gaia.IEDecorator.init('', 'autumn')</script><![endif]-->
+
+	<title>Textpattern Gaia - Content Formatting</title>
+</head>
+
+<body class="right-aligned">
+
+<!-- container -->
+<div id="container"><div id="wrapper">
+
+<h1><a id="website-name" href="http://agafonkin.com/projects/gaia/">Textpattern Gaia</a></h1>
+
+<!-- navigation -->
+<ul class="nav">
+	<li><a href="intro.html">Intro</a></li>
+	<li><a href="installation.html">Installation</a></li>
+	<li><span class="active">Formatting</span></li>
+	<li><a href="customization.html">Customization</a></li>
+</ul><!-- /navigation -->
+
+<!-- content -->
+<div id="content">
+
+	<h2>Formatting</h2>
+
+	<p>Gaia is designed with a great attention to content formatting. It is styled such way that standard HTML code for formatting of content (nested lists, block quotes, code blocks, tables, etc.) will look natural and won't break your website's layout.</p>
+
+	<p>Besides that, it can introduce more depth to your content by providing a couple of additional markup patterns. You will see what I mean below.</p>
+
+	<h3>Block quotes</h3>
+
+	<p>Standard block quote looks that way:</p>
+	<blockquote><p>This is a block quote.</p></blockquote>
+
+	<blockquote class='inline'><p>This is some great quotation I like.<br /><cite>&mdash; Great Guy</cite></p></blockquote>
+	<p>By adding 'inline' class to your blockquote element, you can make it look like that. (See to the right)</p>
+
+	<p>You can use the following Textile markup for this:</p>
+	<pre><code>.bq(inline) This is some great quotation. &lt;br /&gt;&lt;cite&gt;&amp;mdash; Great Guy&lt;/cite&gt;</code></pre>
+
+	<p>To make the width of the quotation bigger, use the following syntax:</p>
+
+	<pre><code>.bq(inline one-half) This block quote takes half of the content block<br />.bq(inline two-thirds) This block quote takes two thirds of the content block</code></pre>
+
+	<h3>Images</h3>
+
+	<p>Use the following markup pattern for images among content:</p>
+	<pre><code>p(img). !http://example.com/path-to-the-image.jpg!</code></pre>
+
+	<p>They will float to the right. If you want to place them on the left, use the 'alt' class:</p>
+	<pre><code>p(img alt). !http://example.com/path-to-the-image.jpg!</code></pre>
+
+	<p>If you have a ~580px image that should take the full fidth of content, use the 'full-width' class:</p>
+	<pre><code>p(img full-width). !http://example.com/path-to-the-image.jpg!</code></pre>
+
+	<p><a href="customization.html">Proceed to the customization instructions &raquo;</a></p>
+
+</div><!-- /content -->
+
+<!-- footer -->
+<div id='footer'>
+	<!-- please do not remove the template reference -->
+	<p>Designed and developed by <a href="http://agafonkin.com">Vladimir Agafonkin</a>. Background illustration is reproduced from <a href="http://www.sxc.hu/photo/77335">photo</a> by <a href="http://www.resonatedesign.com">Jamie Harris</a>. Created for <a href="http://textpattern.com">Textpattern</a>.</p>
+	<p>If you have any questions, ideas or just thoughts regarding the template, please visit the <a href="http://forum.textpattern.com/viewtopic.php?id=23172">Gaia TXP forum topic</a>.</p>
+</div><!-- /footer -->
+
+</div></div><!-- /container -->
+
+</body>
+</html>

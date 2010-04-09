@@ -1,0 +1,61 @@
+file filter = 
+dir filter = 
+
+-[F]gaia {
+ |-[F]forms {
+ | |-[t]archive_article.txt
+ | |-[t]article_heading.txt
+ | |-[t]comment_form.txt
+ | |-[t]comments.txt
+ | |-[t]comments_display.txt
+ | |-[t]default.txt
+ | |-[t]footer.txt
+ | |-[t]full_article.txt
+ | |-[t]header.txt
+ | |-[t]search_results.txt
+ | |-[t]static_article.txt }
+ |
+ |-[F]gaia {
+ | |-[F]css {
+ | | |-[c]autumn.css
+ | | |-[c]screen.css }
+ | |
+ | |-[F]images {
+ | | |-[F]autumn {
+ | | | |-[p]background.png
+ | | | |-[p]overlay.png }
+ | | |
+ | | |-[g]border.gif
+ | | |-[g]grid.gif
+ | | |-[p]shadow-bl.png
+ | | |-[p]shadow-br.png
+ | | |-[p]shadow-tl.png
+ | | |-[p]shadow-tr.png
+ | | |-[p]shadow.png }
+ | |
+ | |-[F]scripts {
+ |   |-[j]scripts.js } }
+ |
+ |-[F]pages {
+ | |-[t]archive.txt
+ | |-[t]default.txt
+ | |-[t]error_default.txt
+ | |-[t]static_page.txt }
+ |
+ |-[F]plugins {
+ | |-[t]an7_comments3.txt
+ | |-[t]cbs_navigation_menu.txt
+ | |-[t]jnm_categories_0_1.txt }
+ |
+ |-[F]psd {
+ | |-[p]background.psd
+ | |-[p]overlay.psd }
+ |
+ |-[h]customization.html
+ |-[h]formatting.html
+ |-[v]gaia.vimentry
+ |-[h]installation.html
+ |-[h]intro.html
+ |-[j]thumbnail.jpg }
+
+

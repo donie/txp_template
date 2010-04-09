@@ -1,0 +1,6 @@
+<!-- full article -->
+<txp:output_form form='article_heading' />
+
+<div class="hentry"><txp:body /></div>
+<txp:output_form form='comments_display' />
+<!-- /full article -->

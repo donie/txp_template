@@ -1,0 +1,45 @@
+body {
+	background: #ede7e0 url(../images/autumn/background.png) no-repeat;
+	}
+#container {
+	background: #fdf9f2;
+	}
+#container[id] {
+	background: url(../images/autumn/overlay.png);
+	}
+a, #container h1 a:hover, #container h2 a:hover {
+	color: #f44;
+	}
+a:visited { 
+	color: #c00;
+	}
+.meta, .comment-meta { 
+	color: #766;
+	}
+.nav { 
+	background: #f2d8c1;
+	}
+.nav li a:hover {
+	background: #f8c79c;
+	}
+.nav li span.active {
+	background: #f8b982;
+	}
+#content pre {
+	background: #f2d8c1;
+	color: black;
+	}
+#footer, #preview-notice {
+	background: #998879;
+	color: #f3f3f3;
+	}
+#footer a {
+	color: #fcc;
+	}
+#footer h2 {
+	color: white;
+	}
+#search-input {
+	background: #776659;
+	color: #f3f3f3;
+	}

@@ -1,0 +1,11 @@
+<txp:output_form form='header' />
+
+<h2>Archive by date</h2>
+<dl id="archive">
+<txp:article_custom limit=99999 section="article" form="archive_article" />
+</dl>
+
+<h2>Browse by categories</h2>
+<txp:category_list break=", " wraptag="p" />
+
+<txp:output_form form='footer' />

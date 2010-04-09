@@ -1,0 +1,23 @@
+<!-- comments -->
+<h2>Comments</h2>
+<txp:if_comments>
+	<txp:comments breakclass="hentry" />
+<txp:else />
+	<txp:if_comments_allowed>
+		<p>No comments yet.</p>
+	</txp:if_comments_allowed>
+</txp:if_comments>
+
+<txp:if_comments_preview>
+	<div id="cpreview">
+		<p id="preview-notice">You can see a preview of your comment below.</p>
+		<txp:comments_preview />
+	</div>
+</txp:if_comments_preview>
+
+<txp:if_comments_allowed>
+	<txp:comments_form />
+<txp:else />
+	<p>Comments closed for this article.</p>
+</txp:if_comments_allowed>
+<!-- /comments -->

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<txp:feed_link flavor="rss" format="link" label="RSS" />
+
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="<txp:site_url />gaia/css/screen.css" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="<txp:site_url />gaia/css/autumn.css" />
+	
+	<script type="text/javascript" src="<txp:site_url />gaia/scripts/scripts.js"></script>
+	<!--[if IE 6]><script type='text/javascript'>Gaia.IEDecorator.init('<txp:site_url />', 'autumn')</script><![endif]-->
+
+	<title><txp:page_title /></title>
+</head>
+
+<body class="right-aligned">
+
+<p id="skip-links">Skip to: <a href="#content">content</a>, <a href="#search">search</a></p>
+
+<!-- container -->
+<div id="container"><div id="wrapper">
+
+<h1><a id="website-name" href="<txp:site_url />"><txp:site_name /></a></h1>
+
+<!-- navigation -->
+<txp:cbs_navigation_menu sections="default,about,archive" class="nav" titles="Home,About,Archive" activenolink="true" activeclass="active" break="li" wraptag="ul" /><!-- /navigation -->
+
+<!-- content -->
+<div class="hfeed" id="content">

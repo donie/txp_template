@@ -1,0 +1,5 @@
+<txp:output_form form='header' />
+
+<txp:article form='static_article' />
+
+<txp:output_form form='footer' />

@@ -1,0 +1,12 @@
+<h2 class='entry-title'><txp:permlink><txp:title /></txp:permlink></h2>
+
+<p class='meta'>
+	Posted <abbr title="<txp:posted gmt='1' format="%Y-%m-%dT%H:%M:%SZ" />" class="datetime published"><txp:posted /></abbr> 
+	in <txp:jnm_categories title="1" link="1"/> by <span class="vcard author"><span class="fn"><txp:author /></span></span>, 
+	<txp:if_comments_allowed>
+		<txp:an7_comments_count count0="no comments." count1="received <strong>one comment</strong>." count2="received <strong># comments</strong>." />
+	</txp:if_comments_allowed>
+	<txp:if_comments_disallowed>
+		<txp:an7_comments_count count0="comments closed." count1="received <strong>one comment</strong>, comments closed." count2="received <strong># comments</strong>, comments closed." />
+	</txp:if_comments_disallowed>
+</p>

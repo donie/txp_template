@@ -1,0 +1,4 @@
+<!-- static article -->
+<h2><txp:title /></h2>
+<txp:body />
+<!-- /static article -->
